@@ -1,0 +1,44 @@
+.container {
+	position: absolute;
+	top: 70px;
+	left: 50%;
+	transform: translateX(-50%);
+	border-radius: 10px;
+	width: 500px;
+	margin: auto;
+	background: linear-gradient(45deg, #e68888, #c6b1ea);
+}
+
+.header {
+	color: white;
+}
+
+.input-border {
+	display: flex;
+	background-color: white;
+	align-items: stretch;
+	height: 50px;
+	border: 1px solid #440e8f;
+	margin: 70px 35px;
+	overflow: hidden;
+}
+
+.input {
+	width: 100%;
+	padding-left: 15px;
+	border: none;
+	outline: none;
+}
+
+.add-btn {
+	width: 100px;
+	height: 100%;
+	border-radius: 0;
+	background-color: #440e8f;
+	color: white;
+}
+
+ul {
+	padding: 0;
+	margin: 0 35px 15px;
+}
